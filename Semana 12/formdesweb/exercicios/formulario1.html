@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/formulario1.css">
+    <title>Formulário 1</title>
+</head>
+<body>
+    <h1>Deixe um comentário</h1>
+    
+    <form id="formulario1" action="respformulario.html" method="post">
+        <label for="ipNome">Nome:</label>
+        <input id="ipNome" name="Nome" type="text" required>
+
+        <label for="ipE-mail">E-mail:</label>
+        <input id="ipE-mail" name="E-mail" type="email" required>
+
+        <label for="ipWebsite">Website:</label>
+        <input type="text" name="Website" id="ipWebsite" required>
+
+        <label for="ipComentário">Comentário:</label>
+        <textarea name="Comentário" id="ipComentário" rows="5" required></textarea>
+
+        <h4>Observação: Seu comentário será publicado após passar pelo moderador</h4>
+
+        <input type="submit" value="Enviar Comentário" id="btnEnviar">
+    </form>
+</body>
+</html>

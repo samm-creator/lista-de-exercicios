@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="../estilos/formulario2.css">
+</head>
+<body>
+
+<div class="container">
+    <table>
+        <tr>
+            <td class="titulo">
+                Não é associado? Faça seu cadastro
+            </td>
+            <td class="lado"></td>
+        </tr>
+    </table>
+
+    <form>
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Senha:</label>
+        <input type="password" name="senha" required>
+
+        <label>Estado (UF):</label>
+        <select name="uf">
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>ES</option>
+            <option>RS</option>
+            <option>SC</option>
+            <option>PR</option>
+            <option>BA</option>
+            <option>PE</option>
+            <option>CE</option>
+            <option>GO</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>DF</option>
+            <option>AM</option>
+            <option>PA</option>
+            <option>TO</option>
+            <option>MA</option>
+            <option>PI</option>
+            <option>RN</option>
+            <option>PB</option>
+            <option>AL</option>
+            <option>SE</option>
+            <option>RO</option>
+            <option>AC</option>
+            <option>AP</option>
+            <option>RR</option>
+        </select>
+
+        <label>Estado Civil:</label>
+        <select name="estado_civil">
+            <option>Solteiro</option>
+            <option>Casado</option>
+            <option>Viúvo</option>
+            <option>Divorciado</option>
+        </select>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
+
+</body>
+</html>

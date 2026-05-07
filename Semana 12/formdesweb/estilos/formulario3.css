@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* caixa principal */
+.principal {
+    width: 420px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid #999;
+}
+
+/* organiza os dois blocos lado a lado */
+.linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* caixas internas */
+.box {
+    width: 180px;
+    padding: 10px;
+    border: 2px solid #999;
+}
+
+/* labels e inputs alinhados igual da imagem */
+label {
+    display: inline-block;
+    width: 70px;
+    margin-top: 10px;
+}
+
+input {
+    width: 90px;
+    margin-top: 10px;
+}
